@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<File_List>
+
+<Directory>
+        <dirName>z:\\test</dirName>
+        <ignoreDir>false</ignoreDir>
+        
+        <File>
+            <ignoreFile>false</ignoreFile>
+            <isLogged>false</isLogged>
+            <file_Name>z:\\test\amundsen_carabou.jpg</file_Name>
+        </File>
+        <File>
+            <ignoreFile>false</ignoreFile>
+            <isLogged>false</isLogged>
+            <file_Name>z:\\test\amundseun_huskies.jpg</file_Name>
+        </File>
+        <File>
+            <ignoreFile>false</ignoreFile>
+            <isLogged>false</isLogged>
+            <file_Name>z:\\test\banksy.jpg</file_Name>
+        </File>
+        
+    </Directory>
+</File_List>

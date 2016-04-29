@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="resources.xsl"?>
+
+<Resources>
+
+<Resource>
+        <resource_name>Chocolate Prices.docx</resource_name>
+        <name>J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\Chocolate Prices.docx</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>Maths</sub>
+            <sub>english</sub>
+            <sub>ICT</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+            <mLevel>l1</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+            <eLevel>E3</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+            <iLevel>l1</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>HD1/L1.4 Find the range for a set of data</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>W/E3.3b; Sequence writing logically and clearly;</fs>
+            <fs>IU/L1.2b; Select and use interface features effectively to meet needs;</fs>
+            <fs>IU/L1.3; Manage information storage.</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+            <e_tag>powerpoint</e_tag>
+            <e_tag>starter</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+            <u_tag>personal finance</u_tag>
+            <u_tag>silly test run of r library</u_tag>
+        </user_tags>
+        <seal>
+            <seal_tag>3 Motivation </seal_tag>
+            <seal_tag>5 Social skills</seal_tag>
+            <seal_tag>Getting on and falling out (2 : 4,5)</seal_tag>
+        </seal>
+        <smsc>
+            <smsc_tag>Moral</smsc_tag>
+        </smsc>
+        <regards>
+            <regards_tag>Age</regards_tag>
+        </regards>
+        <ecm/>
+        <description>hoopla</description>
+        <added_by>107312</added_by>
+        <date_added>2014-06-25 16:48:52</date_added>
+        <ncd>true</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+<Resource>
+        <resource_name>100 Metres Dash Game Instructions.docx</resource_name>
+        <name>J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\100 Metres Dash Game Instructions.docx</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>Maths</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes/>
+        <fs_codes/>
+        <maths_topics>
+            <m_topic>all</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal/>
+        <smsc/>
+        <regards/>
+        <ecm/>
+        <description>no description</description>
+        <added_by>107312</added_by>
+        <date_added>2014-06-25 16:52:52</date_added>
+        <ncd>false</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+</Resources>

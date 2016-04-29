@@ -1,0 +1,28 @@
+Mar 02, 2016 2:13:18 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\test\bin;C:\Program Files\Git\mingw32\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw32\bin;C:\Program Files\Git\usr\bin;C:\Users\test\bin;C:\Program Files\Java\jdk7\bin;C:\Program Files\Calibre2;C:\Program Files\QuickTime\QTSystem;C:\Program Files\Skype\Phone;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.
+Mar 02, 2016 2:13:19 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Mar 02, 2016 2:13:19 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1543 ms
+Mar 02, 2016 2:13:19 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Mar 02, 2016 2:13:19 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Mar 02, 2016 2:13:19 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Mar 02, 2016 2:13:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Mar 02, 2016 2:13:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Mar 02, 2016 2:13:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Mar 02, 2016 2:13:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Mar 02, 2016 2:13:21 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Mar 02, 2016 2:13:21 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Mar 02, 2016 2:13:21 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/42  config=null
+Mar 02, 2016 2:13:21 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1783 ms

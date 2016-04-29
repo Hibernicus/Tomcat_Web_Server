@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="resources.xsl"?>
+
+<Resources>
+
+<Resource>
+        <resource_name>100 Metres Dash Game Instructions.docx</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\old course files\SFL CG 3792 11-12 - Current File\Resources\100 Metres Dash Game Instructions.docx</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>Maths</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+            <mLevel>l1</mLevel>
+            <mLevel>l2</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>HD2/L1.1 Show that some events are more likely to occur than others</cc>
+            <cc>HD2/L1.2 Express the likelihood of an event using fractions, decimals and percentages with the probability scale of 0 to 1</cc>
+            <cc>HD2/L2.1 Identify the range of possible outcomes of combined events and record the information using diagrams or tables</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>MA/L1.4n; Use data to assess the likelihood of an outcome.</fs>
+            <fs>MA/L2.4k; Use statistical methods to investigate situations;</fs>
+            <fs>MA/L2.4l; Use probability to assess the likelihood of an outcome.</fs>
+            <fs>MR/L2.3i; Collect and represent discrete and continuous data, using ICT where appropriate;</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+            <m_topic>probability</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+		<m_tag>all</m_tag>
+            <m_tag>continuous assessment</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+		<u_tag>all</u_tag>
+            <u_tag>employability</u_tag>
+            <u_tag>personal finance</u_tag>
+        </user_tags>
+        <seal>
+            <seal_tag>Motivation </seal_tag>
+        </seal>
+        <smsc>
+            <smsc_tag>Social</smsc_tag>
+        </smsc>
+        <regards>
+            <regards_tag>Economic Status</regards_tag>
+        </regards>
+        <ecm>
+            <ecm_tag>3. Enjoying and achieving</ecm_tag>
+        </ecm>
+        <description>A game to introduce calculating the likelihood of outcomes. Exploring combined events.</description>
+        <added_by>107312</added_by>
+        <date_added>2013-04-24 16:20:49</date_added>
+        <ncd>true</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+
+<Resource>
+        <resource_name>MATHSWATCH_Foundation.exe</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\old course files\SFL CG 3792 11-12 - Current File\Resources\Numeracy\MathsWatch CD\MATHSWATCH_Foundation.exe</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>Maths</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes/>
+        <fs_codes/>
+        <maths_topics>
+            <m_topic>all</m_topic>
+            <m_topic>multi-resource</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+		 <m_tag>all</m_tag>
+            <m_tag>interface</m_tag>
+            <m_tag>video</m_tag>
+        </maths_tags>
+	<english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>gcse foundation tier</u_tag>
+		<u_tag>all</u_tag>
+	 </user_tags>
+        <seal>
+            <seal_tag>Motivation </seal_tag>
+        </seal>
+        <smsc/>
+        <regards/>
+        <ecm>
+            <ecm_tag>3. Enjoying and achieving</ecm_tag>
+        </ecm>
+        <description>This is an executable application that links to short, interactive video tutorials on a wide range of subjects (GCSE Foundation Tier)</description>
+        <added_by>107312</added_by>
+        <date_added>2013-04-24 16:28:01</date_added>
+        <ncd>false</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+
+<Resource>
+        <resource_name>Mind Gym 2 E3-L2.doc</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\old course files\SFL CG 3792 11-12 - Current File\Resources\Numeracy\mind gyms\mind gyms CD\Mind Gym 2 E3-L2.doc</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>Maths</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+            <mLevel>E3</mLevel>
+            <mLevel>l1</mLevel>
+            <mLevel>l2</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>N1/E3.2 Add and subtract using three digit whole numbers</cc>
+            <cc>N1/E3.3 Recall addition and subtraction facts to 20</cc>
+            <cc>N1/E3.5 Recall multiplication facts (e.g. multiples of 2, 3, 4, 5, 10)</cc>
+            <cc>N1/E3.6 Divide two-digit whole numbers by single-digit whole numbers and interpret remainders</cc>
+            <cc>N2/E3.1 Read, write and understand common fractions (e.g. 3/4, 2/3, 1/10)</cc>
+            <cc>N2/E3.2 Recognise and use equivalent forms (e.g. 5/10 = 1/2)</cc>
+            <cc>N2/L1.2 Find parts of whole number quantities or measurements (e.g. 2/3 or 3/4)</cc>
+            <cc>N2/L1.3 Recognise equivalencies between common fractions, percentages and decimals (e.g. 50% = 1/2 , 0.25 = 1/4) and use these to find part of whole-number quantities</cc>
+            <cc>N2/L1.5 Add, subtract, multiply and divide decimals up to two places</cc>
+            <cc>N2/L2.2 Identify equivalencies between fractions, decimals and percentages</cc>
+            <cc>N2/L2.3 Evaluate one number as a fraction of another</cc>
+            <cc>N2/L2.6 Add, subtract, multiply and divide decimals up to three places</cc>
+            <cc>N2/L2.8 Find percentage parts of quantities and measurements</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>MA/E3.4; Apply mathematics to obtain answers to simple given practical problems that are clear and routine.</fs>
+            <fs>MA/E3.4a; Add and subtract using three-digit numbers;</fs>
+            <fs>MA/E3.4d; Understand and use simple fractions;</fs>
+            <fs>MA/L1.4c; Understand and use equivalences between common fractions, decimals and percentages;</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+            <m_topic>fractions</m_topic>
+            <m_topic>%</m_topic>
+            <m_topic>4 rules</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+		<m_tag>all</m_tag>
+            <m_tag>mind gym</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal>
+            <seal_tag>Motivation </seal_tag>
+        </seal>
+        <smsc/>
+        <regards/>
+        <ecm>
+            <ecm_tag>3. Enjoying and achieving</ecm_tag>
+        </ecm>
+        <description>Mind Gym activity</description>
+        <added_by>107312</added_by>
+        <date_added>2013-04-24 16:32:08</date_added>
+        <ncd>true</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+
+<Resource>
+        <resource_name>Chomwell Green fact and opinion.doc</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\old course files\SFL CG 3792 11-12 - Current File\Resources\Literacy\Level 1\Fact and Opinion\Chomwell Green fact and opinion.doc</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>english</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+            <eLevel>l1</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>Rt/L1.1 Trace and understand the main events of continuous descriptive, explanatory and persuasive texts</cc>
+            <cc>Rt/L1.2 Recognise how language and other textual features are used to achieve different purposes</cc>
+            <cc>Rt/L1.3 Identify the main points and specific detail, and infer meaning from images which is not explicit in the text</cc>
+            <cc>Rw/L1.2 Recognise and understand the vocabulary associated with different types of text, using appropriate strategies to work out meaning</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>R/L1.2b; Read and understand texts in detail;</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+            <e_topic>fact &amp; opinion</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal>
+            <seal_tag>Motivation </seal_tag>
+        </seal>
+        <smsc/>
+        <regards/>
+        <ecm>
+            <ecm_tag>3. Enjoying and achieving</ecm_tag>
+        </ecm>
+        <description>This resource is modelled on a property advertisement. The objective is to separate facts from opinion.</description>
+        <added_by>107312</added_by>
+        <date_added>2013-04-24 16:37:59</date_added>
+        <ncd>false</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+
+<Resource>
+        <resource_name>WOW info.doc</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\old course files\SFL CG 3792 11-12 - Current File\Resources\Literacy\Warm ups level 1 &amp; 2\WOW info.doc</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>english</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+            <eLevel>l1</eLevel>
+            <eLevel>l2</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>Rw/L1.3 Recognise and understand an increasing range of vocabulary, applying knowledge of word structure, related words, word roots, derivations, borrowings</cc>
+            <cc>Rw/L2.2 Use reference material to find the meaning of unfamiliar words</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>W/L1.3a; Write clearly and coherently, including an appropriate level of detail;</fs>
+            <fs>W/L1.3b; Present information in a logical sequence;</fs>
+            <fs>W/L1.3c; Use language, format and structure suitable for purpose and audience;</fs>
+            <fs>W/L1.3d; Use correct grammar, including correct and consistent use of tense;</fs>
+            <fs>W/L1.3e; Ensure written work includes generally accurate punctuation and spelling and that meaning is clear;</fs>
+            <fs>W/L2.3e; Punctuate written text using commas, apostrophes and inverted commas accurately;</fs>
+            <fs>W/L2.3f; Ensure written work is fit for purpose and audience, with accurate spelling and grammar that support clear meaning in a range of text types.</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+            <e_topic>word of the week</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+	<maths_tags>
+        <m_tag>all</m_tag>
+        </maths_tags>
+        <english_tags>
+	     <e_tag>all</e_tag>
+            <e_tag>starter</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+
+        <seal>
+            <seal_tag>Motivation </seal_tag>
+        </seal>
+        <smsc/>
+        <regards/>
+        <ecm>
+            <ecm_tag>3. Enjoying and achieving</ecm_tag>
+        </ecm>
+        <description>Word of the week activity instructions</description>
+        <added_by>107312</added_by>
+        <date_added>2013-04-24 16:42:01</date_added>
+        <ncd>true</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+<Resource>
+        <resource_name>FormulaFunctionPracticeLong.xls</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\old course files\SFL CG 3792 11-12 - Current File\Resources\ICT\Functional Skills\Spreadsheet Skills\SpreadSheets Practice Exercises\1st set\FormulaFunctionPracticeLong.xls</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>ICT</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+            <iLevel>l1</iLevel>
+            <iLevel>l2</iLevel>
+        </ict_levels>
+        <core_codes/>
+        <fs_codes>
+            <fs>IU/L1.1; Identify the ICT requirements of a straightforward task.</fs>
+            <fs>IU/L2.2; Select, interact with and use ICT systems safely and securely for a complex task in non-routine and unfamiliar contexts.</fs>
+            <fs>IU/L2.2a; Select and use software applications to meet needs and solve complex problems;</fs>
+            <fs>IU/L2.2b; Select and use a range of interface features and system facilities effectively to meet needs;</fs>
+            <fs>IDPC/L1.8; Use appropriate software to meet requirements of straightforward data-handling tasks.</fs>
+            <fs>IDPC/L1.8a; Process numerical data;</fs>
+            <fs>IDPC/L1.11a; At each stage of a task and at the task’s completion.</fs>
+            <fs>IDPC/L2.7; Use appropriate software to meet the requirements of a complex data-handling task.</fs>
+            <fs>IDPC/L2.7a; Process and analyse numerical data;</fs>
+            <fs>IDPC/L2.10a; At each stage of a task and at the task’s completion</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+            <i_topic>functions &amp; formulae</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+		<i_tag>all</i_tag>
+            <i_tag>xls</i_tag> 
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal>
+            <seal_tag>Motivation </seal_tag>
+        </seal>
+        <smsc/>
+        <regards/>
+        <ecm>
+            <ecm_tag>3. Enjoying and achieving</ecm_tag>
+        </ecm>
+        <description>A self-access tutorial to explore a range of functions and formulae in Excel</description>
+        <added_by>107312</added_by>
+        <date_added>2013-04-24 16:47:48</date_added>
+        <ncd>true</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+
+<Resource>
+        <resource_name>bibliography.doc</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\old course files\SFL CG 3792 11-12 - Current File\Resources\English\Level 2\bibliography.doc</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>english</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+            <eLevel>l2</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>Wt/L2.3 Present information and ideas in a logical or persuasive sequence, using paragraphs where appropriate</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>R/L2.2; Select, read, understand and compare texts and use them to gather information, ideas, arguments and opinions.</fs>
+            <fs>R/L2.2a; Select and use different types of texts to obtain and utilise relevant information;</fs>
+            <fs>R/L2.2b; Read and summarise, succinctly, information/ideas from different sources;</fs>
+            <fs>W/L2.3d; Use a range of sentence structures, including complex sentences, and paragraphs to organise written communication effectively.</fs>
+            <fs>W/L2.3e; Punctuate written text using commas, apostrophes and inverted commas accurately;</fs>
+            <fs>W/L2.3f; Ensure written work is fit for purpose and audience, with accurate spelling and grammar that support clear meaning in a range of text types.</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+            <e_topic>formal letter
+</e_topic>
+            <e_topic>bibliography</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+            <e_tag>worksheet</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal/>
+        <smsc/>
+        <regards/>
+        <ecm/>
+        <description>no description</description>
+        <added_by>109476</added_by>
+        <date_added>2013-06-14 15:02:03</date_added>
+        <ncd>false</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+<Resource>
+        <resource_name>l2 practice questions fractions.doc</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\old course files\SFL CG 3792 11-12 - Current File\Resources\Numeracy\Level 2\l2 practice questions fractions.doc</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>Maths</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+            <mLevel>l2</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>N2/L2.1 Use fractions to order and compare amounts or quantities</cc>
+            <cc>N2/L2.2 Identify equivalencies between fractions, decimals and percentages</cc>
+            <cc>N2/L2.3 Evaluate one number as a fraction of another</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>MA/L2.4d; Understand and use equivalences between fractions, decimals and percentages;</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+            <m_topic>fractions</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+            <m_tag>exam revision</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+            <u_tag>little test</u_tag>
+        </user_tags>
+        <seal/>
+        <smsc/>
+        <regards/>
+        <ecm>
+            <ecm_tag>4. Making a positive contribution</ecm_tag>
+            <ecm_tag>5. Achieving economic well-being</ecm_tag>
+        </ecm>
+        <description>fractions multi choice worksheet</description>
+        <added_by>109476</added_by>
+        <date_added>2013-06-14 15:23:10</date_added>
+        <ncd>false</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+<Resource>
+        <resource_name>James Bond 007 - Intro sequence collage from 1962-2006.flv</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\old course files\SFL CG 3792 11-12 - Current File\Resources\ICT\JB Data\James Bond 007 - Intro sequence collage from 1962-2006.flv</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>ICT</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes/>
+        <fs_codes/>
+        <maths_topics>
+            <m_topic>all</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal>
+            <seal_tag>5 Social skills</seal_tag>
+            <seal_tag>Going for goals! (3 : 1)</seal_tag>
+        </seal>
+        <smsc/>
+        <regards/>
+        <ecm/>
+        <description>no description</description>
+        <added_by>107312</added_by>
+        <date_added>2013-08-19 10:57:25</date_added>
+        <ncd>false</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+<Resource>
+        <resource_name>Age Data 2011.docx</resource_name>
+        <name>J:\Foundation Studies &amp; Learner Support\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\Age Data 2011.docx</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>Maths</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+            <mLevel>l1</mLevel>
+            <mLevel>l2</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>HD1/L1.1 Extract and interpret information (e.g. in tables, diagrams, charts and line graphs)</cc>
+            <cc>HD1/L1.2 Collect, organise and represent discrete data (e.g. in tables, charts, diagrams and line graphs)</cc>
+            <cc>HD1/L1.3 Find the arithmetical average (mean) for a set of data</cc>
+            <cc>HD1/L1.4 Find the range for a set of data</cc>
+            <cc>HD1/L2.1 Extract discrete and continuous data from tables, diagrams, charts and line graphs</cc>
+            <cc>HD1/L2.2 Collect, organise and represent discrete and continuous data in tables, charts, diagrams and line graphs</cc>
+            <cc>HD1/L2.3 Find the mean, median and mode, and use them as appropriate to compare two sets of data</cc>
+            <cc>HD1/L2.4 Find the range and use it to describe the spread within sets of data</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>MR/L2.3; Choose from a range of mathematics to find solutions.</fs>
+            <fs>MR/L2.3i; Collect and represent discrete and continuous data, using ICT where appropriate;</fs>
+            <fs>MR/L1.2k; Extract and interpret information from tables, diagrams, charts and graphs;</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+            <m_topic>data handling</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+            <m_tag>continuous assessment</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal>
+            <seal_tag>Going for goals! (3 : 1)</seal_tag>
+        </seal>
+        <smsc>
+            <smsc_tag>Cultural</smsc_tag>
+        </smsc>
+        <regards>
+            <regards_tag>Economic Status</regards_tag>
+        </regards>
+        <ecm/>
+        <description>no description</description>
+        <added_by>107312</added_by>
+        <date_added>2013-12-02 09:48:49</date_added>
+        <ncd>true</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+<Resource>
+        <resource_name>countdown.html</resource_name>
+        <name>J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\countdown.html</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>Maths</sub>
+            <sub>english</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+            <mLevel>E3</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+            <eLevel>l1</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>MSS1/E3.4 Read and interpret distance in everyday situations</cc>
+            <cc>MSS1/E3.7 Read, estimate, measure and compare capacity using nonstandard and standard units</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>MR/E3.3j; Use metric units in everyday situations;</fs>
+            <fs>W/L1.3c; Use language, format and structure suitable for purpose and audience;</fs>
+            <fs>W/L1.3e; Ensure written work includes generally accurate punctuation and spelling and that meaning is clear;</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+            <m_topic>multi-resource</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+            <m_tag>continuous assessment</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal/>
+        <smsc/>
+        <regards/>
+        <ecm>
+            <ecm_tag>3. Enjoying and achieving</ecm_tag>
+        </ecm>
+        <description>Countdown</description>
+        <added_by>107312</added_by>
+        <date_added>2014-05-06 14:14:00</date_added>
+        <ncd>false</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+<Resource>
+        <resource_name>ICT_Millionnaire.ppt</resource_name>
+        <name>J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\ICT\TES\ICT_Millionnaire.ppt</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>ICT</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+            <iLevel>l1</iLevel>
+        </ict_levels>
+        <core_codes/>
+        <fs_codes>
+            <fs>IF/L1.6; Select information from a variety of ICT sources for a straightforward task.</fs>
+            <fs>IU/L1.1; Identify the ICT requirements of a straightforward task.</fs>
+            <fs>IU/L1.2a; Select and use software applications to meet needs and solve straightforward problems;</fs>
+            <fs>IU/L1.2c; Adjust system settings as appropriate to individual needs.</fs>
+            <fs>IDPC/L1.9; Use communications software to meet requirements of a straightforward task.</fs>
+            <fs>IDPC/L1.10; Combine information within a publication for a familiar audience and purpose.</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+            <i_topic>initial assessment</i_topic>
+            <i_topic>continuous assessment</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+            <i_tag>continuous assessment</i_tag>
+            <i_tag>starter</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal/>
+        <smsc/>
+        <regards/>
+        <ecm>
+            <ecm_tag>3. Enjoying and achieving</ecm_tag>
+        </ecm>
+        <description>fun powerpoint based on 'Who wants to be a Millionaire?"</description>
+        <added_by>107312</added_by>
+        <date_added>2014-06-11 16:45:51</date_added>
+        <ncd>false</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+<Resource>
+        <resource_name>100 Metres Dash Game Instructions.docx</resource_name>
+        <name>J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\100 Metres Dash Game Instructions.docx</name>
+        <subjects>
+            <sub>all</sub>
+            <sub>Maths</sub>
+        </subjects>
+        <maths_levels>
+            <mLevel>all</mLevel>
+            <mLevel>l1</mLevel>
+        </maths_levels>
+        <english_levels>
+            <eLevel>all</eLevel>
+        </english_levels>
+        <ict_levels>
+            <iLevel>all</iLevel>
+        </ict_levels>
+        <core_codes>
+            <cc>HD2/L1.1 Show that some events are more likely to occur than others</cc>
+            <cc>HD2/L1.2 Express the likelihood of an event using fractions, decimals and percentages with the probability scale of 0 to 1</cc>
+        </core_codes>
+        <fs_codes>
+            <fs>MA/L1.4n; Use data to assess the likelihood of an outcome.</fs>
+        </fs_codes>
+        <maths_topics>
+            <m_topic>all</m_topic>
+        </maths_topics>
+        <english_topics>
+            <e_topic>all</e_topic>
+        </english_topics>
+        <ict_topics>
+            <i_topic>all</i_topic>
+        </ict_topics>
+        <maths_tags>
+            <m_tag>all</m_tag>
+        </maths_tags>
+        <english_tags>
+            <e_tag>all</e_tag>
+        </english_tags>
+        <ict_tags>
+            <i_tag>all</i_tag>
+        </ict_tags>
+        <user_tags>
+            <u_tag>all</u_tag>
+        </user_tags>
+        <seal/>
+        <smsc/>
+        <regards/>
+        <ecm/>
+        <description>no description</description>
+        <added_by>107312</added_by>
+        <date_added>2014-06-25 11:46:30</date_added>
+        <ncd>true</ncd>
+        <rating/>
+        <last_Access/>
+        <last_accessed_by/>
+        <access_frequency/>
+    </Resource>
+</Resources>

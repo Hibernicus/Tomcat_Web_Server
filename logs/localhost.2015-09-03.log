@@ -1,0 +1,16 @@
+Sep 03, 2015 10:58:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Sep 03, 2015 10:58:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Sep 03, 2015 10:58:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@1ee2292')
+Sep 03, 2015 10:58:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@515f40')
+Sep 03, 2015 11:11:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@1c8e886')
+Sep 03, 2015 11:11:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('590E8B7B22D28318D16426065D4494C8')
+Sep 03, 2015 11:11:53 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('590E8B7B22D28318D16426065D4494C8', '', '')
+Sep 03, 2015 11:11:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('590E8B7B22D28318D16426065D4494C8', 'foo', 'bar')

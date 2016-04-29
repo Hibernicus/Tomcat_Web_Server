@@ -1,0 +1,56 @@
+Oct 01, 2014 4:27:48 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\Tomcat_Web_Server\bin\jdk1.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Oracle\product\11.2.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;.
+Oct 01, 2014 4:27:50 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Oct 01, 2014 4:27:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2971 ms
+Oct 01, 2014 4:27:50 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 01, 2014 4:27:50 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Oct 01, 2014 4:27:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Oct 01, 2014 4:27:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Oct 01, 2014 4:27:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Oct 01, 2014 4:27:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Oct 01, 2014 4:27:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Oct 01, 2014 4:27:55 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Oct 01, 2014 4:27:55 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Oct 01, 2014 4:27:55 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/203  config=null
+Oct 01, 2014 4:27:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5493 ms
+Oct 01, 2014 4:53:06 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\Tomcat_Web_Server\bin\jdk1.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0\bin;C:\Program Files\Java\jdk1.7.0\bin;.
+Oct 01, 2014 4:53:07 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Oct 01, 2014 4:53:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2690 ms
+Oct 01, 2014 4:53:07 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 01, 2014 4:53:07 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Oct 01, 2014 4:53:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Oct 01, 2014 4:53:09 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Oct 01, 2014 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Oct 01, 2014 4:53:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Oct 01, 2014 4:53:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Oct 01, 2014 4:53:10 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Oct 01, 2014 4:53:11 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Oct 01, 2014 4:53:11 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/194  config=null
+Oct 01, 2014 4:53:11 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3693 ms

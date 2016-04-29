@@ -1,0 +1,68 @@
+Jul 20, 2010 1:29:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_20\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Intel\DMIX;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files\Common Files\Roxio Shared\DLLShared\;C:\Program Files\Common Files\Roxio Shared\DLLShared\;C:\Program Files\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files\Java\jdk1.6.0_20\bin;C:\PROGRA~1\DISKEE~1\DISKEE~1\;C:\Program Files\Common Files\DivX Shared\;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files\SSH Communications Security\SSH Secure Shell;C:\apache-maven-2.0.9\bin
+Jul 20, 2010 1:29:01 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-80
+Jul 20, 2010 1:29:01 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 603 ms
+Jul 20, 2010 1:29:01 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 20, 2010 1:29:01 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 20, 2010 1:29:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 20, 2010 1:29:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 20, 2010 1:29:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory host-manager
+Jul 20, 2010 1:29:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory manager
+Jul 20, 2010 1:29:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 20, 2010 1:29:02 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-80
+Jul 20, 2010 1:29:02 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 20, 2010 1:29:02 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/30  config=null
+Jul 20, 2010 1:29:02 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 766 ms
+Jul 20, 2010 1:38:20 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-80
+Jul 20, 2010 1:38:21 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 20, 2010 1:38:21 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-80
+Jul 20, 2010 1:38:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.6.0_20\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Intel\DMIX;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files\Common Files\Roxio Shared\DLLShared\;C:\Program Files\Common Files\Roxio Shared\DLLShared\;C:\Program Files\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files\Java\jdk1.6.0_20\bin;C:\PROGRA~1\DISKEE~1\DISKEE~1\;C:\Program Files\Common Files\DivX Shared\;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files\SSH Communications Security\SSH Secure Shell;C:\apache-maven-2.0.9\bin
+Jul 20, 2010 1:38:53 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-80
+Jul 20, 2010 1:38:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 293 ms
+Jul 20, 2010 1:38:53 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 20, 2010 1:38:53 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 20, 2010 1:38:53 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 20, 2010 1:38:53 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 20, 2010 1:38:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 20, 2010 1:38:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 20, 2010 1:38:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 20, 2010 1:38:53 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-80
+Jul 20, 2010 1:38:53 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 20, 2010 1:38:53 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/17  config=null
+Jul 20, 2010 1:38:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 426 ms
+Jul 20, 2010 1:39:15 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-80
+Jul 20, 2010 1:39:16 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jul 20, 2010 1:39:16 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-80

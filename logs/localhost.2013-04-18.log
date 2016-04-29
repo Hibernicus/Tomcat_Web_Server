@@ -1,0 +1,958 @@
+Apr 18, 2013 9:16:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Apr 18, 2013 9:16:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Apr 18, 2013 9:16:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@fae256')
+Apr 18, 2013 9:16:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@1603522')
+Apr 18, 2013 10:13:37 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 9 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+6: <BODY SCROLLLING = "YES">
+7: <%finder.setLevel("l1");
+8: finder.setTopic("probability");
+9: <TABLE>
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+
+
+An error occurred at line: 9 in the jsp file: /Resources.jsp
+Syntax error on token ">", delete this token
+6: <BODY SCROLLLING = "YES">
+7: <%finder.setLevel("l1");
+8: finder.setTopic("probability");
+9: <TABLE>
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+
+
+An error occurred at line: 11 in the jsp file: /Resources.jsp
+Syntax error on token "<", , expected
+8: finder.setTopic("probability");
+9: <TABLE>
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+
+
+An error occurred at line: 11 in the jsp file: /Resources.jsp
+Syntax error on token ">", delete this token
+8: finder.setTopic("probability");
+9: <TABLE>
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+
+
+An error occurred at line: 12 in the jsp file: /Resources.jsp
+div cannot be resolved to a type
+9: <TABLE>
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+
+
+An error occurred at line: 13 in the jsp file: /Resources.jsp
+Syntax error on token "<", delete this token
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+
+
+An error occurred at line: 13 in the jsp file: /Resources.jsp
+H1 cannot be resolved
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+
+
+An error occurred at line: 13 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+
+
+An error occurred at line: 13 in the jsp file: /Resources.jsp
+Maths cannot be resolved
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+
+
+An error occurred at line: 13 in the jsp file: /Resources.jsp
+Resources cannot be resolved to a type
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+
+
+An error occurred at line: 13 in the jsp file: /Resources.jsp
+Syntax error on token "/", delete this token
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+
+
+An error occurred at line: 13 in the jsp file: /Resources.jsp
+H1 cannot be resolved to a type
+10: <TR>
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+
+
+An error occurred at line: 14 in the jsp file: /Resources.jsp
+Syntax error on tokens, delete these tokens
+11: <TD>
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+
+
+An error occurred at line: 15 in the jsp file: /Resources.jsp
+Duplicate local variable style
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+
+
+An error occurred at line: 15 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+12: <div style="background-color:BLUE; color:YELLOW;padding:2px">
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+
+
+An error occurred at line: 16 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+
+
+An error occurred at line: 16 in the jsp file: /Resources.jsp
+FORM cannot be resolved
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+
+
+An error occurred at line: 16 in the jsp file: /Resources.jsp
+METHOD cannot be resolved
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+
+
+An error occurred at line: 16 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+
+
+An error occurred at line: 16 in the jsp file: /Resources.jsp
+POST cannot be resolved
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+
+
+An error occurred at line: 16 in the jsp file: /Resources.jsp
+ACTION cannot be resolved
+13: <H1>Maths Resources</H1>
+14: </div>
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+
+
+An error occurred at line: 18 in the jsp file: /Resources.jsp
+Syntax error on token "<", delete this token
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+
+
+An error occurred at line: 18 in the jsp file: /Resources.jsp
+BIG cannot be resolved
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+
+
+An error occurred at line: 18 in the jsp file: /Resources.jsp
+Syntax error on token "<", delete this token
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+
+
+An error occurred at line: 18 in the jsp file: /Resources.jsp
+B cannot be resolved
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+
+
+An error occurred at line: 18 in the jsp file: /Resources.jsp
+Level cannot be resolved
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+
+
+An error occurred at line: 18 in the jsp file: /Resources.jsp
+Syntax error on token "/", delete this token
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+
+
+An error occurred at line: 18 in the jsp file: /Resources.jsp
+BIG cannot be resolved
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+
+
+An error occurred at line: 18 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+15: <div style="background-color:#F5ECCE; color:Green;padding:2px">
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+
+
+An error occurred at line: 19 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+
+
+An error occurred at line: 19 in the jsp file: /Resources.jsp
+select cannot be resolved
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+
+
+An error occurred at line: 19 in the jsp file: /Resources.jsp
+NAME cannot be resolved
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+
+
+An error occurred at line: 19 in the jsp file: /Resources.jsp
+level cannot be resolved
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+
+
+An error occurred at line: 19 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+16: <FORM METHOD=POST ACTION="Maths_Resources.jsp">
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+
+
+An error occurred at line: 20 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+
+
+An error occurred at line: 20 in the jsp file: /Resources.jsp
+option cannot be resolved
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+
+
+An error occurred at line: 20 in the jsp file: /Resources.jsp
+value cannot be resolved
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+
+
+An error occurred at line: 20 in the jsp file: /Resources.jsp
+All cannot be resolved
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+
+
+An error occurred at line: 20 in the jsp file: /Resources.jsp
+Syntax error on token "/", delete this token
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+
+
+An error occurred at line: 20 in the jsp file: /Resources.jsp
+option cannot be resolved
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+
+
+An error occurred at line: 20 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+17: 
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+
+
+An error occurred at line: 21 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+
+
+An error occurred at line: 21 in the jsp file: /Resources.jsp
+option cannot be resolved
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+
+
+An error occurred at line: 21 in the jsp file: /Resources.jsp
+value cannot be resolved
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+
+
+An error occurred at line: 21 in the jsp file: /Resources.jsp
+pre cannot be resolved
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+
+
+An error occurred at line: 21 in the jsp file: /Resources.jsp
+Entry cannot be resolved
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+
+
+An error occurred at line: 21 in the jsp file: /Resources.jsp
+Syntax error on token "/", delete this token
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+
+
+An error occurred at line: 21 in the jsp file: /Resources.jsp
+option cannot be resolved
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+
+
+An error occurred at line: 21 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+18: <BIG><B>Level</BIG>
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+
+
+An error occurred at line: 22 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+
+
+An error occurred at line: 22 in the jsp file: /Resources.jsp
+option cannot be resolved
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+
+
+An error occurred at line: 22 in the jsp file: /Resources.jsp
+value cannot be resolved
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+
+
+An error occurred at line: 22 in the jsp file: /Resources.jsp
+E1 cannot be resolved
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+
+
+An error occurred at line: 22 in the jsp file: /Resources.jsp
+Syntax error on token "/", delete this token
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+
+
+An error occurred at line: 22 in the jsp file: /Resources.jsp
+option cannot be resolved
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+
+
+An error occurred at line: 22 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+19: <select NAME = level>
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+
+
+An error occurred at line: 23 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+
+
+An error occurred at line: 23 in the jsp file: /Resources.jsp
+option cannot be resolved
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+
+
+An error occurred at line: 23 in the jsp file: /Resources.jsp
+value cannot be resolved
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+
+
+An error occurred at line: 23 in the jsp file: /Resources.jsp
+E2 cannot be resolved
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+
+
+An error occurred at line: 23 in the jsp file: /Resources.jsp
+Syntax error on token "/", delete this token
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+
+
+An error occurred at line: 23 in the jsp file: /Resources.jsp
+option cannot be resolved
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+
+
+An error occurred at line: 23 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+20:    <option value="All">All</option>
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+
+
+An error occurred at line: 24 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+
+
+An error occurred at line: 24 in the jsp file: /Resources.jsp
+option cannot be resolved
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+
+
+An error occurred at line: 24 in the jsp file: /Resources.jsp
+value cannot be resolved
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+
+
+An error occurred at line: 24 in the jsp file: /Resources.jsp
+E3 cannot be resolved
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+
+
+An error occurred at line: 24 in the jsp file: /Resources.jsp
+Syntax error on token "/", delete this token
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+
+
+An error occurred at line: 24 in the jsp file: /Resources.jsp
+option cannot be resolved
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+
+
+An error occurred at line: 24 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+21:    <option value="pre-Entry">pre-Entry</option>
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+
+
+An error occurred at line: 25 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+
+
+An error occurred at line: 25 in the jsp file: /Resources.jsp
+option cannot be resolved
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+
+
+An error occurred at line: 25 in the jsp file: /Resources.jsp
+value cannot be resolved
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+
+
+An error occurred at line: 25 in the jsp file: /Resources.jsp
+l1 cannot be resolved
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+
+
+An error occurred at line: 25 in the jsp file: /Resources.jsp
+Syntax error on token "/", delete this token
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+
+
+An error occurred at line: 25 in the jsp file: /Resources.jsp
+option cannot be resolved
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+
+
+An error occurred at line: 25 in the jsp file: /Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+22:    <option value="E1">E1</option>
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+
+
+An error occurred at line: 26 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+29: <%TopicList mList = new TopicList("maths");%>
+
+
+An error occurred at line: 26 in the jsp file: /Resources.jsp
+option cannot be resolved
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+29: <%TopicList mList = new TopicList("maths");%>
+
+
+An error occurred at line: 26 in the jsp file: /Resources.jsp
+Syntax error on token "/", delete this token
+23:    <option value="E2">E2</option>
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+29: <%TopicList mList = new TopicList("maths");%>
+
+
+An error occurred at line: 27 in the jsp file: /Resources.jsp
+Syntax error on token "<", invalid Expression
+24:    <option value="E3">E3</option>
+25:    <option value="l1">l1</option>
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+29: <%TopicList mList = new TopicList("maths");%>
+30: 	Topic</B></BIG>
+
+
+An error occurred at line: 29 in the jsp file: /Resources.jsp
+Syntax error on token "<", invalid Expression
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+29: <%TopicList mList = new TopicList("maths");%>
+30: 	Topic</B></BIG>
+31: 	<select NAME = topic>
+32: 	<%for(int t = 0; t <mList.topics.size(); t++){%>
+
+
+An error occurred at line: 29 in the jsp file: /Resources.jsp
+Syntax error, insert ";" to complete Statement
+26:    <option value="l2">l2</option>
+27: </select>
+28: 
+29: <%TopicList mList = new TopicList("maths");%>
+30: 	Topic</B></BIG>
+31: 	<select NAME = topic>
+32: 	<%for(int t = 0; t <mList.topics.size(); t++){%>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 18, 2013 12:26:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Apr 18, 2013 12:26:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Apr 18, 2013 12:26:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@fd2905')
+Apr 18, 2013 12:26:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@76f2e8')

@@ -1,0 +1,28 @@
+Feb 16, 2016 11:10:09 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: F:\John's programming\Tomcat_Web_Server\bin\jdk1.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk7\bin;C:\Program Files\Calibre2\;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Skype\Phone\;.
+Feb 16, 2016 11:10:10 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 16, 2016 11:10:10 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1660 ms
+Feb 16, 2016 11:10:10 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 16, 2016 11:10:10 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Feb 16, 2016 11:10:10 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 16, 2016 11:10:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 16, 2016 11:10:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 16, 2016 11:10:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 16, 2016 11:10:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 16, 2016 11:10:12 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Feb 16, 2016 11:10:12 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Feb 16, 2016 11:10:12 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/50  config=null
+Feb 16, 2016 11:10:12 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1786 ms

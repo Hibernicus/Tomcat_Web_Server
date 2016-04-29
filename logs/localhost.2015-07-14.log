@@ -1,0 +1,632 @@
+Jul 14, 2015 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 14, 2015 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 14, 2015 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@17800e7')
+Jul 14, 2015 1:17:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@1b0889a')
+Jul 14, 2015 1:19:09 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 96 in the generated java file
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: 106 in the generated java file
+Syntax error on token "}", delete this token
+
+An error occurred at line: 107 in the generated java file
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 14, 2015 1:37:06 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 27 in the jsp file: /Resource_Lib/Xavier.jsp
+The method getName(String) is undefined for the type Xavier_jsp
+24: 	<div style="background-color:#F5ECCE; color:Green;padding:2px">
+25: 
+26: 	<img src=  
+27: 	"<%=xav.listOfFiles.get(i)%>" alt="<%=getName(xav.listOfFiles.get(i))%>"
+28: 	>
+29: 	
+30: 	</img>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 14, 2015 1:38:27 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 27 in the jsp file: /Resource_Lib/Xavier.jsp
+The method getName(String) is undefined for the type Xavier_jsp
+24: 	<div style="background-color:#F5ECCE; color:Green;padding:2px">
+25: 
+26: 	<img src=  
+27: 	"<%=xav.listOfFiles.get(i)%>" alt="<%=getName(xav.listOfFiles.get(i))%>"
+28: 	>
+29: 	
+30: 	</img>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 14, 2015 1:48:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 14, 2015 1:48:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 14, 2015 1:48:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@ad8848')
+Jul 14, 2015 1:48:13 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@1978933')
+Jul 14, 2015 2:26:55 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 14, 2015 2:26:55 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 14, 2015 2:26:55 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@f1a348')
+Jul 14, 2015 2:26:55 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@1b0889a')
+Jul 14, 2015 2:56:07 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+New cannot be resolved to a type
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token ":", ; expected
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", delete this token
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+input cannot be resolved to a type
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token ">", invalid Expression
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 44 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete Statement
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+
+
+An error occurred at line: 44 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete Statement
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+
+
+An error occurred at line: 44 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on tokens, Expression expected instead
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+
+
+An error occurred at line: 46 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+
+
+An error occurred at line: 46 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+
+
+An error occurred at line: 46 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token(s), misplaced construct(s)
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+
+
+An error occurred at line: 49 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete Statement
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+50: 
+51: 
+52: </FORM>
+
+
+An error occurred at line: 49 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete Statement
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+50: 
+51: 
+52: </FORM>
+
+
+An error occurred at line: 52 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+49: <INPUT TYPE=SUBMIT value = "Submit">
+50: 
+51: 
+52: </FORM>
+53: 	
+54: 
+55: 	</TD>
+
+
+An error occurred at line: 55 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+52: </FORM>
+53: 	
+54: 
+55: 	</TD>
+56: 	</div>
+57: 	</TR>
+58: 	<%
+
+
+An error occurred at line: 56 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+53: 	
+54: 
+55: 	</TD>
+56: 	</div>
+57: 	</TR>
+58: 	<%
+59: 	}
+
+
+An error occurred at line: 57 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+54: 
+55: 	</TD>
+56: 	</div>
+57: 	</TR>
+58: 	<%
+59: 	}
+60: 	%>
+
+
+An error occurred at line: 58 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on tokens, delete these tokens
+55: 	</TD>
+56: 	</div>
+57: 	</TR>
+58: 	<%
+59: 	}
+60: 	%>
+61: 
+
+
+An error occurred at line: 138 in the generated java file
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 14, 2015 2:56:48 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+New cannot be resolved to a type
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token ":", ; expected
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", delete this token
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+input cannot be resolved to a type
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 43 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token ">", invalid Expression
+40:    <option value=<form action="Xavier.jsp" method="POST">
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+
+
+An error occurred at line: 44 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete Statement
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+
+
+An error occurred at line: 44 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete Statement
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+
+
+An error occurred at line: 44 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on tokens, Expression expected instead
+41: 	<%
+42: 	
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+
+
+An error occurred at line: 46 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+
+
+An error occurred at line: 46 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+
+
+An error occurred at line: 46 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token(s), misplaced construct(s)
+43: 	New Tag: <input type="text" name="new_tag" />
+44: 	<input type="submit" value="Add new tag" />
+45: 	</form>
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+
+
+An error occurred at line: 49 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete Statement
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+50: 
+51: 
+52: </FORM>
+
+
+An error occurred at line: 49 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error, insert ";" to complete Statement
+46: 	</select></option>
+47:    
+48: 
+49: <INPUT TYPE=SUBMIT value = "Submit">
+50: 
+51: 
+52: </FORM>
+
+
+An error occurred at line: 52 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+49: <INPUT TYPE=SUBMIT value = "Submit">
+50: 
+51: 
+52: </FORM>
+53: 	
+54: 
+55: 	</TD>
+
+
+An error occurred at line: 55 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+52: </FORM>
+53: 	
+54: 
+55: 	</TD>
+56: 	</div>
+57: 	</TR>
+58: 	<%
+
+
+An error occurred at line: 56 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+53: 	
+54: 
+55: 	</TD>
+56: 	</div>
+57: 	</TR>
+58: 	<%
+59: 	}
+
+
+An error occurred at line: 57 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on token "<", invalid Expression
+54: 
+55: 	</TD>
+56: 	</div>
+57: 	</TR>
+58: 	<%
+59: 	}
+60: 	%>
+
+
+An error occurred at line: 58 in the jsp file: /Resource_Lib/Xavier.jsp
+Syntax error on tokens, delete these tokens
+55: 	</TD>
+56: 	</div>
+57: 	</TR>
+58: 	<%
+59: 	}
+60: 	%>
+61: 
+
+
+An error occurred at line: 138 in the generated java file
+Syntax error, insert "}" to complete Block
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 14, 2015 4:07:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 14, 2015 4:07:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 14, 2015 4:07:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@1e6a820')
+Jul 14, 2015 4:07:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@1b0889a')

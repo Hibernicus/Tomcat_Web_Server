@@ -1,0 +1,1989 @@
+Apr 24, 2013 8:54:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Apr 24, 2013 8:54:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Apr 24, 2013 8:54:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@2ee4e8')
+Apr 24, 2013 8:54:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@1458dcb')
+Apr 24, 2013 12:22:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Apr 24, 2013 12:22:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Apr 24, 2013 12:22:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@255d')
+Apr 24, 2013 12:22:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@76f2e8')
+Apr 24, 2013 1:53:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Apr 24, 2013 1:53:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Apr 24, 2013 1:53:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@43cc83')
+Apr 24, 2013 1:53:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@76f2e8')
+Apr 24, 2013 2:08:11 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 141 in the jsp file: /English_Resources.jsp
+ss cannot be resolved
+138: 
+139: 		if(xReader.vars.get(i).subjects.size() != 0){
+140: 			for(int ss = 0; ss < xReader.vars.get(i).subjects.size(); ss++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(ss)%><%
+142: 			}
+143: 		}%>
+144: 
+
+
+An error occurred at line: 143 in the jsp file: /English_Resources.jsp
+Syntax error, insert "Finally" to complete TryStatement
+140: 			for(int ss = 0; ss < xReader.vars.get(i).subjects.size(); ss++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(ss)%><%
+142: 			}
+143: 		}%>
+144: 
+145: 		<b>Core Curriculum:</b><br>
+146: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+
+
+An error occurred at line: 146 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+143: 		}%>
+144: 
+145: 		<b>Core Curriculum:</b><br>
+146: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+147: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+148: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+149: 			}
+
+
+An error occurred at line: 146 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+143: 		}%>
+144: 
+145: 		<b>Core Curriculum:</b><br>
+146: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+147: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+148: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+149: 			}
+
+
+An error occurred at line: 147 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+144: 
+145: 		<b>Core Curriculum:</b><br>
+146: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+147: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+148: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+149: 			}
+150: 		}%>
+
+
+An error occurred at line: 147 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+144: 
+145: 		<b>Core Curriculum:</b><br>
+146: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+147: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+148: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+149: 			}
+150: 		}%>
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+145: 		<b>Core Curriculum:</b><br>
+146: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+147: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+148: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+149: 			}
+150: 		}%>
+151: 	    </TD>
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+145: 		<b>Core Curriculum:</b><br>
+146: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+147: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+148: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+149: 			}
+150: 		}%>
+151: 	    </TD>
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</div>
+"", delete this token
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</div>
+"", delete this token
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</BODY>
+"", delete this token
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 166 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</HTML>
+"", delete this token
+163: <%
+164: 
+165: 	}
+166: %>
+167: 
+168: </div>
+169: 
+
+
+An error occurred at line: 283 in the generated java file
+Syntax error on token "catch", invalid AnnotationName
+
+An error occurred at line: 283 in the generated java file
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: 283 in the generated java file
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: 285 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 285 in the generated java file
+_jspx_out cannot be resolved
+
+An error occurred at line: 286 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 286 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 287 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 288 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 288 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 290 in the generated java file
+Syntax error on token "finally", invalid AnnotationTypeDeclarationHeader
+
+An error occurred at line: 290 in the generated java file
+Syntax error, insert "}" to complete AnnotationTypeBody
+
+An error occurred at line: 291 in the generated java file
+_jspx_page_context cannot be resolved
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 2:09:48 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 141 in the jsp file: /English_Resources.jsp
+ss cannot be resolved
+138: 
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+140: 			for(int ss = 0; ss < xReader.vars.get(i).subjects.size(); ss++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(ss)%><%
+142: 			}
+143: 		  }
+144: 		catch(Exception s){}
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+145: 		%>
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+145: 		%>
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+
+
+An error occurred at line: 149 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+
+
+An error occurred at line: 149 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+
+
+An error occurred at line: 150 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+153: 	    </TD>
+
+
+An error occurred at line: 150 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+153: 	    </TD>
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</div>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</div>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</BODY>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</HTML>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 285 in the generated java file
+Syntax error on token "catch", invalid AnnotationName
+
+An error occurred at line: 285 in the generated java file
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: 285 in the generated java file
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: 287 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 287 in the generated java file
+_jspx_out cannot be resolved
+
+An error occurred at line: 288 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 288 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 289 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 290 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 290 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 292 in the generated java file
+Syntax error on token "finally", invalid AnnotationTypeDeclarationHeader
+
+An error occurred at line: 292 in the generated java file
+Syntax error, insert "}" to complete AnnotationTypeBody
+
+An error occurred at line: 293 in the generated java file
+_jspx_page_context cannot be resolved
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 2:10:47 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 141 in the jsp file: /English_Resources.jsp
+sub cannot be resolved
+138: 
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+140: 			for(int sub = 0; sub < xReader.vars.get(i).subjects.size(); sub++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(sub)%><%
+142: 			}
+143: 		  }
+144: 		catch(Exception s){}
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+145: 		%>
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+145: 		%>
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+
+
+An error occurred at line: 149 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+
+
+An error occurred at line: 149 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+
+
+An error occurred at line: 150 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+153: 	    </TD>
+
+
+An error occurred at line: 150 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+153: 	    </TD>
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</div>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</div>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</BODY>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</HTML>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 285 in the generated java file
+Syntax error on token "catch", invalid AnnotationName
+
+An error occurred at line: 285 in the generated java file
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: 285 in the generated java file
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: 287 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 287 in the generated java file
+_jspx_out cannot be resolved
+
+An error occurred at line: 288 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 288 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 289 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 290 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 290 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 292 in the generated java file
+Syntax error on token "finally", invalid AnnotationTypeDeclarationHeader
+
+An error occurred at line: 292 in the generated java file
+Syntax error, insert "}" to complete AnnotationTypeBody
+
+An error occurred at line: 293 in the generated java file
+_jspx_page_context cannot be resolved
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 2:12:17 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 141 in the jsp file: /English_Resources.jsp
+sj cannot be resolved
+138: 
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+140: 			for(int sj = 0; sj < xReader.vars.get(i).subjects.size(); sj++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(sj)%><%
+142: 			}
+143: 		  }
+144: 		catch(Exception s){}
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+145: 		%>
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+145: 		%>
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+
+
+An error occurred at line: 149 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+
+
+An error occurred at line: 149 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+
+
+An error occurred at line: 150 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+153: 	    </TD>
+
+
+An error occurred at line: 150 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+153: 	    </TD>
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</div>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</div>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</BODY>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token(s), misplaced construct(s)
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 168 in the jsp file: /English_Resources.jsp
+Syntax error on token ""</HTML>
+"", delete this token
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+171: 
+
+
+An error occurred at line: 285 in the generated java file
+Syntax error on token "catch", invalid AnnotationName
+
+An error occurred at line: 285 in the generated java file
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: 285 in the generated java file
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: 287 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 287 in the generated java file
+_jspx_out cannot be resolved
+
+An error occurred at line: 288 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 288 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 289 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 290 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 290 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 292 in the generated java file
+Syntax error on token "finally", invalid AnnotationTypeDeclarationHeader
+
+An error occurred at line: 292 in the generated java file
+Syntax error, insert "}" to complete AnnotationTypeBody
+
+An error occurred at line: 293 in the generated java file
+_jspx_page_context cannot be resolved
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 2:13:00 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 136 in the jsp file: /English_Resources.jsp
+Syntax error, insert ";" to complete Statement
+133: 	<TR>
+134: 	<TD width = 33%>
+135: 		<b>Subjects:</b><br>
+136: 		<%try{xReader.vars.get(i).subjects.remove(0)}
+137: 			
+138: 
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+
+
+An error occurred at line: 136 in the jsp file: /English_Resources.jsp
+Syntax error, insert "}" to complete Block
+133: 	<TR>
+134: 	<TD width = 33%>
+135: 		<b>Subjects:</b><br>
+136: 		<%try{xReader.vars.get(i).subjects.remove(0)}
+137: 			
+138: 
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+
+
+An error occurred at line: 136 in the jsp file: /English_Resources.jsp
+Syntax error, insert "Finally" to complete TryStatement
+133: 	<TR>
+134: 	<TD width = 33%>
+135: 		<b>Subjects:</b><br>
+136: 		<%try{xReader.vars.get(i).subjects.remove(0)}
+137: 			
+138: 
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+
+
+An error occurred at line: 139 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+136: 		<%try{xReader.vars.get(i).subjects.remove(0)}
+137: 			
+138: 
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+140: 			for(int sj = 0; sj < xReader.vars.get(i).subjects.size(); sj++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(sj)%><%
+142: 			}
+
+
+An error occurred at line: 140 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+137: 			
+138: 
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+140: 			for(int sj = 0; sj < xReader.vars.get(i).subjects.size(); sj++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(sj)%><%
+142: 			}
+143: 		  }
+
+
+An error occurred at line: 141 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+138: 
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+140: 			for(int sj = 0; sj < xReader.vars.get(i).subjects.size(); sj++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(sj)%><%
+142: 			}
+143: 		  }
+144: 		catch(Exception s){}
+
+
+An error occurred at line: 143 in the jsp file: /English_Resources.jsp
+Syntax error, insert "else Statement" to complete IfStatement
+140: 			for(int sj = 0; sj < xReader.vars.get(i).subjects.size(); sj++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(sj)%><%
+142: 			}
+143: 		  }
+144: 		catch(Exception s){}
+145: 		%>
+146: 
+
+
+An error occurred at line: 143 in the jsp file: /English_Resources.jsp
+Syntax error, insert "}" to complete Block
+140: 			for(int sj = 0; sj < xReader.vars.get(i).subjects.size(); sj++){
+141: 			   %><br><%= xReader.vars.get(i).subjects.get(sj)%><%
+142: 			}
+143: 		  }
+144: 		catch(Exception s){}
+145: 		%>
+146: 
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+145: 		%>
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+
+
+An error occurred at line: 148 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+145: 		%>
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+
+
+An error occurred at line: 149 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+
+
+An error occurred at line: 149 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+146: 
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+
+
+An error occurred at line: 150 in the jsp file: /English_Resources.jsp
+xReader.vars cannot be resolved to a type
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+153: 	    </TD>
+
+
+An error occurred at line: 150 in the jsp file: /English_Resources.jsp
+i cannot be resolved
+147: 		<b>Core Curriculum:</b><br>
+148: 		<%if(xReader.vars.get(i).core_codes.size() != 0){
+149: 			for(int cc = 0; cc < xReader.vars.get(i).core_codes.size(); cc++){
+150: 			   %><br><%= xReader.vars.get(i).core_codes.get(cc)%><%
+151: 			}
+152: 		}%>
+153: 	    </TD>
+
+
+An error occurred at line: 167 in the jsp file: /English_Resources.jsp
+Syntax error on token "}", delete this token
+164: 
+165: <%
+166: 
+167: 	}
+168: %>
+169: 
+170: </div>
+
+
+An error occurred at line: 287 in the generated java file
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: 288 in the generated java file
+t cannot be resolved
+
+An error occurred at line: 292 in the generated java file
+t cannot be resolved
+
+An error occurred at line: 294 in the generated java file
+Syntax error on token "finally", delete this token
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 2:14:02 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 136 in the jsp file: /English_Resources.jsp
+Syntax error, insert ";" to complete BlockStatements
+133: 	<TR>
+134: 	<TD width = 33%>
+135: 		<b>Subjects:</b><br>
+136: 		<%try{xReader.vars.get(i).subjects.remove(0)}
+137: 			catch(Exception s){}
+138: 		
+139: 		   if(xReader.vars.get(i).subjects.size() != 0){
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 2:50:29 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 191 in the jsp file: /English_Resources.jsp
+cc cannot be resolved
+188: 
+189: 		<br><br><b>Functional Skills:</b>
+190: 		<%if(xReader.vars.get(i).fs_codes.size() != 0){
+191: 			for(int fs = 0; cc < xReader.vars.get(i).fs_codes.size(); fs++){
+192: 			   %><br><%= xReader.vars.get(i).fs_codes.get(fs)%><%
+193: 			}
+194: 		}%>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:35:56 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 271 in the jsp file: /English_Resources.jsp
+seal_topics cannot be resolved or is not a field
+268: 		
+269: 		%>
+270: 		<b>SEAL:</b>
+271: 		<%try{xReader.vars.get(i).seal_topics.remove(0);}
+272: 			catch(Exception s){}
+273: 		
+274: 		   if(xReader.vars.get(i).seal.size() != 0){
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:92)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:330)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:439)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:327)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:314)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:317)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:52:36 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:52:44 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:53:14 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:53:45 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:54:02 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:54:54 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:55:25 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:57:36 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 3:59:03 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 4:05:38 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 4:08:12 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 24, 2013 4:08:53 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+java.lang.NullPointerException
+	at org.resources.MyXMLReader.getTagValue(MyXMLReader.java:211)
+	at org.resources.MyXMLReader.enLists(MyXMLReader.java:119)
+	at org.resources.MyXMLReader.elemList(MyXMLReader.java:90)
+	at org.apache.jsp.Maths_005fResources_jsp._jspService(Maths_005fResources_jsp.java:212)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:377)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+

@@ -1,0 +1,180 @@
+Jul 14, 2015 1:17:52 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\Tomcat_Web_Server\bin\jdk1.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk\bin;.
+Jul 14, 2015 1:17:54 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jul 14, 2015 1:17:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4013 ms
+Jul 14, 2015 1:17:54 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 14, 2015 1:17:54 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 14, 2015 1:17:54 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 14, 2015 1:17:56 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 14, 2015 1:17:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 14, 2015 1:17:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 14, 2015 1:17:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 14, 2015 1:17:58 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jul 14, 2015 1:17:58 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 14, 2015 1:17:58 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/250  config=null
+Jul 14, 2015 1:17:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4578 ms
+Jul 14, 2015 1:48:10 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\Tomcat_Web_Server\bin\jdk1.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk\bin;.
+Jul 14, 2015 1:48:11 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jul 14, 2015 1:48:11 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1517 ms
+Jul 14, 2015 1:48:11 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 14, 2015 1:48:11 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 14, 2015 1:48:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 14, 2015 1:48:12 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 14, 2015 1:48:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 14, 2015 1:48:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 14, 2015 1:48:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 14, 2015 1:48:13 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jul 14, 2015 1:48:13 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 14, 2015 1:48:13 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/94  config=null
+Jul 14, 2015 1:48:13 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2608 ms
+Jul 14, 2015 2:26:51 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\Tomcat_Web_Server\bin\jdk1.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk\bin;.
+Jul 14, 2015 2:26:53 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jul 14, 2015 2:26:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3336 ms
+Jul 14, 2015 2:26:53 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 14, 2015 2:26:53 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 14, 2015 2:26:53 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 14, 2015 2:26:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 14, 2015 2:26:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 14, 2015 2:26:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 14, 2015 2:26:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 14, 2015 2:26:56 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jul 14, 2015 2:26:56 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 14, 2015 2:26:56 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/258  config=null
+Jul 14, 2015 2:26:56 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3506 ms
+Jul 14, 2015 4:07:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: J:\FSLS\12-13\old course files\SFL CG 3792 11-12 - Current File\Resources\Tomcat_Web_Server\bin\jdk1.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk\bin;.
+Jul 14, 2015 4:07:02 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Jul 14, 2015 4:07:02 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2124 ms
+Jul 14, 2015 4:07:03 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 14, 2015 4:07:03 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 14, 2015 4:07:03 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 14, 2015 4:07:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 14, 2015 4:07:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 14, 2015 4:07:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 14, 2015 4:07:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 14, 2015 4:07:05 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Jul 14, 2015 4:07:05 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 14, 2015 4:07:05 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/109  config=null
+Jul 14, 2015 4:07:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2778 ms
+Jul 14, 2015 4:13:01 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+Jul 14, 2015 4:13:01 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [AWT-Windows] but has failed to stop it. This is very likely to create a memory leak.
+Jul 14, 2015 4:13:01 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [AWT-Shutdown] but has failed to stop it. This is very likely to create a memory leak.
+Jul 14, 2015 4:13:01 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [AWT-EventQueue-0] but has failed to stop it. This is very likely to create a memory leak.
+Jul 14, 2015 4:13:14 PM org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load javax.swing.plaf.nimbus.CheckBoxPainter.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1531)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at javax.swing.plaf.nimbus.NimbusDefaults$LazyPainter.createValue(NimbusDefaults.java:1330)
+	at javax.swing.UIDefaults.getFromHashtable(UIDefaults.java:217)
+	at javax.swing.UIDefaults.get(UIDefaults.java:162)
+	at javax.swing.plaf.nimbus.NimbusStyle.get(NimbusStyle.java:671)
+	at javax.swing.plaf.nimbus.NimbusIcon.paintIcon(NimbusIcon.java:58)
+	at sun.swing.plaf.synth.SynthIcon.paintIcon(SynthIcon.java:64)
+	at javax.swing.plaf.synth.SynthGraphicsUtils.paintText(SynthGraphicsUtils.java:396)
+	at javax.swing.plaf.synth.SynthButtonUI.paint(SynthButtonUI.java:291)
+	at javax.swing.plaf.synth.SynthButtonUI.update(SynthButtonUI.java:257)
+	at javax.swing.JComponent.paintComponent(JComponent.java:778)
+	at javax.swing.JComponent.paint(JComponent.java:1054)
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)
+	at javax.swing.JComponent.paint(JComponent.java:1063)
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)
+	at javax.swing.JComponent.paint(JComponent.java:1063)
+	at javax.swing.JViewport.paint(JViewport.java:725)
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)
+	at javax.swing.JComponent.paint(JComponent.java:1063)
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)
+	at javax.swing.JComponent.paint(JComponent.java:1063)
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)
+	at javax.swing.JComponent.paint(JComponent.java:1063)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:585)
+	at javax.swing.JComponent.paintChildren(JComponent.java:887)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5228)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:295)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1206)
+	at javax.swing.JComponent.paint(JComponent.java:1040)
+	at java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39)
+	at sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:78)
+	at sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:115)
+	at java.awt.Container.paint(Container.java:1967)
+	at java.awt.Window.paint(Window.java:3867)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:781)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:728)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:677)
+	at javax.swing.RepaintManager.access$700(RepaintManager.java:59)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1621)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:705)
+	at java.awt.EventQueue.access$000(EventQueue.java:101)
+	at java.awt.EventQueue$3.run(EventQueue.java:666)
+	at java.awt.EventQueue$3.run(EventQueue.java:664)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:675)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+

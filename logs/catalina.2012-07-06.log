@@ -1,0 +1,60 @@
+Jul 06, 2012 9:38:20 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0;C:\Program Files\Java\jdk1.7.0\bin;C:\Program Files\OpenOffice.org 3\Basis\program\officebean.jar;C:\Program Files\Java\jdk1.7.0\bin;C:\Program Files\OpenOffice.org 3\URE\bin\;C:\Program Files\OpenOffice.org 3\URE\java\*.jar;.
+Jul 06, 2012 9:38:20 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-80
+Jul 06, 2012 9:38:20 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 476 ms
+Jul 06, 2012 9:38:20 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 06, 2012 9:38:20 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 06, 2012 9:38:20 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 06, 2012 9:38:20 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 06, 2012 9:38:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 06, 2012 9:38:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 06, 2012 9:38:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 06, 2012 9:38:21 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-80
+Jul 06, 2012 9:38:21 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 06, 2012 9:38:21 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/32  config=null
+Jul 06, 2012 9:38:21 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1645 ms
+Jul 06, 2012 9:55:09 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0;C:\Program Files\Java\jdk1.7.0\bin;C:\Program Files\OpenOffice.org 3\Basis\program\officebean.jar;C:\Program Files\Java\jdk1.7.0\bin;C:\Program Files\OpenOffice.org 3\URE\bin\;C:\Program Files\OpenOffice.org 3\URE\java\*.jar;.
+Jul 06, 2012 9:55:09 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-80
+Jul 06, 2012 9:55:09 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 372 ms
+Jul 06, 2012 9:55:09 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 06, 2012 9:55:09 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.28
+Jul 06, 2012 9:55:09 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jul 06, 2012 9:55:09 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jul 06, 2012 9:55:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jul 06, 2012 9:55:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jul 06, 2012 9:55:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jul 06, 2012 9:55:09 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-80
+Jul 06, 2012 9:55:09 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Jul 06, 2012 9:55:09 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/32  config=null
+Jul 06, 2012 9:55:09 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 576 ms
+Jul 06, 2012 9:57:40 AM org.apache.catalina.loader.WebappClassLoader modified
+SEVERE:     Resource '/WEB-INF/classes/SecondServlet.class' is missing
+Jul 06, 2012 9:57:40 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started

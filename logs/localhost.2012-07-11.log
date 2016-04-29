@@ -1,0 +1,1254 @@
+Jul 11, 2012 11:02:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 11, 2012 11:02:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 11, 2012 11:02:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@1fa425c')
+Jul 11, 2012 11:02:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@18c458')
+Jul 11, 2012 11:12:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.SecondServlet as unavailable
+Jul 11, 2012 11:12:28 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ SecondServlet
+java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:12:28 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Wrapper cannot find servlet class SecondServlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:13:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.SecondServlet as unavailable
+Jul 11, 2012 11:13:06 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ SecondServlet
+java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:13:06 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Wrapper cannot find servlet class SecondServlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:13:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.SecondServlet as unavailable
+Jul 11, 2012 11:13:08 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ SecondServlet
+java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:13:08 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Wrapper cannot find servlet class SecondServlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:13:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.SecondServlet as unavailable
+Jul 11, 2012 11:13:09 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ SecondServlet
+java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:13:09 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Wrapper cannot find servlet class SecondServlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:13:27 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.SecondServlet as unavailable
+Jul 11, 2012 11:13:27 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ SecondServlet
+java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:13:27 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Wrapper cannot find servlet class SecondServlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:14:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 11, 2012 11:14:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 11, 2012 11:14:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@1bff1b4')
+Jul 11, 2012 11:14:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@2a2cc')
+Jul 11, 2012 11:14:17 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.SecondServlet as unavailable
+Jul 11, 2012 11:14:17 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ SecondServlet
+java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:14:17 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Wrapper cannot find servlet class SecondServlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:15:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 11, 2012 11:15:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 11, 2012 11:15:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@7779d2')
+Jul 11, 2012 11:15:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@2a2cc')
+Jul 11, 2012 11:15:50 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.SecondServlet as unavailable
+Jul 11, 2012 11:15:50 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ SecondServlet
+java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:15:50 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Wrapper cannot find servlet class SecondServlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: SecondServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:15:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.HelloWorld as unavailable
+Jul 11, 2012 11:15:59 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ HelloWorld
+java.lang.ClassNotFoundException: HelloWorld
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:15:59 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/HelloWorld
+javax.servlet.ServletException: Wrapper cannot find servlet class HelloWorld or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: HelloWorld
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:16:32 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Error allocating a servlet instance
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:819)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	... 16 more
+
+Jul 11, 2012 11:16:32 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet invoker threw exception
+java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:16:34 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Error allocating a servlet instance
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:819)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	... 16 more
+
+Jul 11, 2012 11:16:34 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet invoker threw exception
+java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:16:38 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Error allocating a servlet instance
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:819)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	... 16 more
+
+Jul 11, 2012 11:16:38 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet invoker threw exception
+java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:16:40 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Error allocating a servlet instance
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:819)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	... 16 more
+
+Jul 11, 2012 11:16:40 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet invoker threw exception
+java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:16:40 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Error allocating a servlet instance
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:819)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	... 16 more
+
+Jul 11, 2012 11:16:40 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet invoker threw exception
+java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:17:01 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/SecondServlet
+javax.servlet.ServletException: Error allocating a servlet instance
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:819)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	... 16 more
+
+Jul 11, 2012 11:17:01 AM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet invoker threw exception
+java.lang.NoClassDefFoundError: SecondServlet (wrong name: com/secondservlet/SecondServlet)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoader.findClassInternal(WebappClassLoader.java:2722)
+	at org.apache.catalina.loader.WebappClassLoader.findClass(WebappClassLoader.java:1124)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1612)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:18:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 11, 2012 11:18:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 11, 2012 11:18:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@7779d2')
+Jul 11, 2012 11:18:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@2a2cc')
+Jul 11, 2012 11:23:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 11, 2012 11:23:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 11, 2012 11:23:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@7779d2')
+Jul 11, 2012 11:23:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@2a2cc')
+Jul 11, 2012 11:41:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.HelloWorld as unavailable
+Jul 11, 2012 11:41:44 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ HelloWorld
+java.lang.ClassNotFoundException: HelloWorld
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:41:44 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/HelloWorld
+javax.servlet.ServletException: Wrapper cannot find servlet class HelloWorld or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: HelloWorld
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:42:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.HelloWorld as unavailable
+Jul 11, 2012 11:42:01 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ HelloWorld
+java.lang.ClassNotFoundException: HelloWorld
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:42:01 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/HelloWorld
+javax.servlet.ServletException: Wrapper cannot find servlet class HelloWorld or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: HelloWorld
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:43:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.HelloWorld as unavailable
+Jul 11, 2012 11:43:37 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ HelloWorld
+java.lang.ClassNotFoundException: HelloWorld
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:43:37 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/HelloWorld
+javax.servlet.ServletException: Wrapper cannot find servlet class HelloWorld or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: HelloWorld
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:43:56 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.hello-world as unavailable
+Jul 11, 2012 11:43:56 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ hello-world
+java.lang.ClassNotFoundException: hello-world
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:43:56 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/hello-world
+javax.servlet.ServletException: Wrapper cannot find servlet class hello-world or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: hello-world
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:44:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.simple-servlet as unavailable
+Jul 11, 2012 11:44:04 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ simple-servlet
+java.lang.ClassNotFoundException: simple-servlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:44:04 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/simple-servlet
+javax.servlet.ServletException: Wrapper cannot find servlet class simple-servlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: simple-servlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
+Jul 11, 2012 11:45:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jul 11, 2012 11:45:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jul 11, 2012 11:45:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.tomcat.util.modeler.Registry@1bff1b4')
+Jul 11, 2012 11:45:31 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'com.sun.jmx.mbeanserver.JmxMBeanServer@2a2cc')
+Jul 11, 2012 11:45:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet org.apache.catalina.INVOKER.simple-servlet as unavailable
+Jul 11, 2012 11:45:44 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: Error loading WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@514f7f
+ simple-servlet
+java.lang.ClassNotFoundException: simple-servlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+
+Jul 11, 2012 11:45:44 AM org.apache.catalina.core.ApplicationContext log
+SEVERE: invoker: Cannot allocate servlet instance for path /servlet/simple-servlet
+javax.servlet.ServletException: Wrapper cannot find servlet class simple-servlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1103)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:809)
+	at org.apache.catalina.servlets.InvokerServlet.serveRequest(InvokerServlet.java:363)
+	at org.apache.catalina.servlets.InvokerServlet.doGet(InvokerServlet.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: simple-servlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1645)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1491)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1095)
+	... 17 more
+
